@@ -1,0 +1,16 @@
+{
+  "name": "Bus Pirate Cardputer ADV - DeepSeek",
+  "description": "ESP32 Bit Pirate for M5 Cardputer ADV with Pirate Assistant using DeepSeek V4 Flash.",
+  "keywords": "bus pirate,cardputer adv,deepseek",
+  "author": "geo_tp / local DeepSeek build",
+  "repository": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+  "firmware_category": {
+    "path": "firmware",
+    "device": [
+      "Cardputer"
+    ],
+    "default_baud": 921600
+  },
+  "version": "1.6-deepseek-v4-flash",
+  "framework": "Arduino"
+}

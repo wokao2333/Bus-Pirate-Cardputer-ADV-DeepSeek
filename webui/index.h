@@ -86,20 +86,20 @@ inline const char* index_html = R"rawliteral(
   <div id="api-key-overlay" class="modal-overlay" style="display:none;"></div>
   <div id="api-key-modal" class="modal" style="display:none;">
     <div class="modal-header">
-      <h2>Gemini API Key</h2>
+      <h2>DeepSeek API Key</h2>
       <button class="modal-close" type="button" aria-label="Close" onclick="closeApiKeyModal()">×</button>
     </div>
 
     <div class="modal-body">
       <p class="modal-text">
-        Please provide your Gemini API key, it will be saved locally. See <a href="https://ai.google.dev/gemini-api/docs/quickstart" target="_blank">Gemini API Quickstart</a>.
+        Please provide your DeepSeek API key, it will be saved locally. See <a href="https://platform.deepseek.com/api_keys" target="_blank">DeepSeek API Keys</a>.
       </p>
 
-      <label class="ai-label" for="gemini-api-key">API Key</label>
+      <label class="ai-label" for="deepseek-api-key">API Key</label>
       <input
         type="password"
-        id="gemini-api-key"
-        placeholder="Paste Gemini API key here"
+        id="deepseek-api-key"
+        placeholder="Paste DeepSeek API key here"
         autocapitalize="off"
         autocomplete="off"
         autocorrect="off"

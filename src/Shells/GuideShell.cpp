@@ -229,7 +229,7 @@ void GuideShell::cmdPirateAssistant() {
     terminalView.println("It turns a task into commands.");
     terminalView.println("");
     terminalView.println("Open the Web UI and press the AI button.");
-    terminalView.println("Add your Gemini API key if asked.");
+    terminalView.println("Add your DeepSeek API key if asked.");
     terminalView.println("Describe what you want in a short sentence.");
     terminalView.println("");
     terminalView.println("Example:");
