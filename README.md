@@ -88,8 +88,8 @@
    - 你也可以在 [M5Burner](https://docs.m5stack.com/en/download) 中烧录，分类为 StickS3、AtomS3、M5StampS3 或 Cardputer。
 
 2. 🔌 通过串口或 Web 连接
-   - 串口：使用任意终端应用（参见 [Connect via Serial](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/99-Serial)）
-   - Web：配置 Wi-Fi，然后通过浏览器访问 CLI（参见 [Wi-Fi Connection](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/00-Terminal)）
+   - 串口：使用任意终端应用（参见[串口连接指南](docs/zh/99-Serial.md)）
+   - Web：配置 Wi-Fi，然后通过浏览器访问 CLI（参见[终端选择](docs/zh/00-Terminal.md)）
 
 3. 🧪 使用如下命令：
    ```
@@ -107,9 +107,9 @@
 📚 **[访问 Wiki](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki)**，查看每种模式和命令的详细文档。
 
 包括：
-- [终端模式](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/00-Terminal) - 关于串口和 Web 终端。
+- [终端模式](docs/zh/00-Terminal.md) - 关于串口和 Web 终端。
 - [模式概览](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki) - 浏览支持的模式。
-- [串口设置](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/99-Serial) - 通过 USB 进行串口访问。
+- [串口设置](docs/zh/99-Serial.md) - 通过 USB 进行串口访问。
 
 Wiki 是了解所有功能工作方式的最佳入口。
 
@@ -160,7 +160,7 @@ ESP32 Bit Pirate 固件提供三种命令行界面（CLI）模式：
 | **独立模式** | - 仅适用于 Cardputer<br>- 使用设备自带键盘<br>- 使用设备自带屏幕 | 便携会话、快速测试 |
 
 
-所有界面使用相同的命令结构，并且可以互换使用（[更多详情](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/00-Terminal)）。
+所有界面使用相同的命令结构，并且可以互换使用（[更多详情](docs/zh/00-Terminal.md)）。
 
 ## 通过 WiFi 使用移动端 Web 界面
 

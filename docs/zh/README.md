@@ -4,6 +4,7 @@
 
 ## 模式列表
 
+- [终端选择与连接方式](00-Terminal.md)
 - [HiZ 模式](01-HiZ.md)
 - [1WIRE 模式](02-1WIRE.md)
 - [UART 模式](03-UART.md)
@@ -27,6 +28,7 @@
 - [RF24 模式](21-RF24.md)
 - [FM 模式](22-FM.md)
 - [CELL 模式](23-CELL.md)
+- [串口连接指南](99-Serial.md)
 
 ## 通用说明
 
