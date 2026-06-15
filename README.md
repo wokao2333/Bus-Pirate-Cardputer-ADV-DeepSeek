@@ -18,26 +18,26 @@
 
 - 可通过 **USB 串口或 WiFi Web** 使用交互式命令行界面（CLI）。
 - **支持的模式：**
-   - [HiZ](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/01-HiZ)（默认）
-   - [I2C](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/05-I2C)（扫描、故障注入、从机模式、转储、EEPROM）
-   - [SPI](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/06-SPI)（EEPROM、Flash、SD 卡、从机模式）
-   - [UART](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/03-UART) / [半双工 UART](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/04-HDUART)（桥接、读取、写入）
-   - [1WIRE](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/02-1WIRE)（iButton、EEPROM）
-   - [2WIRE](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/07-2WIRE)（嗅探、智能卡）/ [3WIRE](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/08-3WIRE)（EEPROM）
-   - [DIO](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/09-DIO)（数字 I/O、读取、上拉、设置、PWM）
-   - [红外](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/11-INFRARED)（发送、录制、万能遥控）
-   - [USB](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/12-USB)（HID、flashrom、存储、USB-UART）
-   - [Bluetooth](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/13-BLUETOOTH)（BLE HID、扫描、伪装、嗅探）
-   - [Wi-Fi](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/14-WIFI) / [Ethernet](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/18-ETHERNET)（嗅探、解除认证、nmap、netcat）
-   - [JTAG](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/15-JTAG)（扫描、SWD、OpenOCD）
-   - [LED](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/10-LED)（动画、设置 LED）
-   - [I2S](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/16-I2S)（测试扬声器、麦克风、播放声音）
-   - [CAN](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/17-CAN)（嗅探、发送和接收帧）
-   - [SUBGHZ](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/19-SUBGHZ)（分析、录制、重放）
-   - [RFID](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/20-RFID)（读取、写入、克隆）
-   - [RF24](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/21-RF24)（扫描、发送、接收）
-   - [FM](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/22-FM)（分析、广播）
-   - [CELL](https://github.com/geo-tp/ESP32-Bit-Pirate/wiki/23-CELL)（转储 SIM 卡、短信、通话）
+   - [HiZ](docs/zh/01-HiZ.md)（默认）
+   - [I2C](docs/zh/05-I2C.md)（扫描、故障注入、从机模式、转储、EEPROM）
+   - [SPI](docs/zh/06-SPI.md)（EEPROM、Flash、SD 卡、从机模式）
+   - [UART](docs/zh/03-UART.md) / [半双工 UART](docs/zh/04-HDUART.md)（桥接、读取、写入）
+   - [1WIRE](docs/zh/02-1WIRE.md)（iButton、EEPROM）
+   - [2WIRE](docs/zh/07-2WIRE.md)（嗅探、智能卡）/ [3WIRE](docs/zh/08-3WIRE.md)（EEPROM）
+   - [DIO](docs/zh/09-DIO.md)（数字 I/O、读取、上拉、设置、PWM）
+   - [红外](docs/zh/11-INFRARED.md)（发送、录制、万能遥控）
+   - [USB](docs/zh/12-USB.md)（HID、flashrom、存储、USB-UART）
+   - [Bluetooth](docs/zh/13-BLUETOOTH.md)（BLE HID、扫描、伪装、嗅探）
+   - [Wi-Fi](docs/zh/14-WIFI.md) / [Ethernet](docs/zh/18-ETHERNET.md)（嗅探、解除认证、nmap、netcat）
+   - [JTAG](docs/zh/15-JTAG.md)（扫描、SWD、OpenOCD）
+   - [LED](docs/zh/10-LED.md)（动画、设置 LED）
+   - [I2S](docs/zh/16-I2S.md)（测试扬声器、麦克风、播放声音）
+   - [CAN](docs/zh/17-CAN.md)（嗅探、发送和接收帧）
+   - [SUBGHZ](docs/zh/19-SUBGHZ.md)（分析、录制、重放）
+   - [RFID](docs/zh/20-RFID.md)（读取、写入、克隆）
+   - [RF24](docs/zh/21-RF24.md)（扫描、发送、接收）
+   - [FM](docs/zh/22-FM.md)（分析、广播）
+   - [CELL](docs/zh/23-CELL.md)（转储 SIM 卡、短信、通话）
 
 
 - **协议嗅探器**：I2C、UART、SPI、1Wire、2wire、CAN、Wi-Fi、Bluetooth、SubGhz。
